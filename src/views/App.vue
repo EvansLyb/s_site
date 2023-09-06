@@ -3,22 +3,22 @@
     <section class="relative flex items-center justify-center w-screen banner">
       <el-image class="absolute z-0 w-screen h-full opacity-30" :src="banner" fit="cover"></el-image>
       <div class="z-10 px-8 text-xl tracking-wide text-center text-white md:px-32 sm:text-4xl">
-        <h3 class="w-1/2 py-2 mx-auto text-xl border border-gray-100 border-solid">APP定制开发</h3>
+        <h3 class="w-1/2 py-2 mx-auto text-xl border border-gray-100 border-solid">APP定制開發</h3>
         <div class="pt-6">
-          <div>专业APP开发团队，助力企业成长</div>
-          <div>服务热线：<span class="font-bold">150 0203 2816</span></div>
+          <div>專業APP研發團隊，助力企業成長</div>
+          <div class="text-base sm:text-xl sm:pt-2">即刻咨詢：<a class="font-bold" href="mailto:kyle@linkendtech.com">kyle@linkendtech.com</a></div>
         </div>
       </div>
     </section>
 
     <section class="px-6 py-4 text-center sm:py-12 sm:px-24">
-      <h2 class="text-xl font-bold text-primary sm:text-4xl">APP定制开发</h2>
-      <p class="w-4/5 pt-6 mx-auto text-left sm:text-xl"><span v-html="space"></span>如今，手机作为移动终端已成为人们生活中不可替代的一环。在现阶段企业要寻求发展，不想沦为时代的炮灰，就不能故步自封，APP开发上线迫在眉睫。多个案例表明，商用APP会给企业带来更多效益。在传统行业与移动互联网融为一个整体的时候，企业和用户之间将可以非常方便地建立一个良性的闭环。</p>
+      <h2 class="text-xl font-bold text-primary sm:text-4xl">APP定制開發</h2>
+      <p class="w-4/5 pt-6 mx-auto text-left sm:text-xl"><span v-html="space"></span>如今，手機作為移動終端已經成為人們生活中不可或替的一環。係現階段企業要尋求發展，不想淪為時代的炮灰，就唔可以故步自封，APP開發上線迫在眉睫。多個案例表明，商用APP會為企業帶來更多效益。將傳統行業結合移動互聯網融，企業和用戶之間將可以非常方便地建立一個良性的閉環。</p>
       <!-- <p class="w-4/5 pt-1 mx-auto text-left sm:text-xl"><span v-html="space"></span>主流的APP运行环境有 iOS系统和 Android系统，最常用的开发技术分为原生开发与混合开发两种。</p> -->
     </section>
 
     <section class="px-6 py-4 bg sm:py-12 sm:px-24">
-      <h2 class="text-xl font-bold text-primary sm:text-4xl">开发模式对比</h2>
+      <h2 class="text-xl font-bold text-primary sm:text-4xl">開發模式對比</h2>
       <div class="relative flex flex-wrap pt-6">
         <el-card class="w-full text-left h-contrast sm:w-1/2 text-primary bg-secondary" body-style="padding: 6% 8%;">
           <div class="font-bold text-md sm:text-2xl">原生开发</div>
@@ -38,7 +38,7 @@
           <p class="pt-6 text-sm font-medium sm:text-md">○ <span v-html="shortSpace"></span>跨平台，一套代码多平台应用</p>
           <p class="text-sm font-medium sm:text-md">○ <span v-html="shortSpace"></span>支持热更新</p>
           <p class="text-sm font-medium sm:text-md">○ <span v-html="shortSpace"></span>维护成本相对较低</p>
-          <p class="text-sm font-medium sm:text-md">○ <span v-html="shortSpace"></span>生态更好</p>
+          <p class="text-sm font-medium sm:text-md">○ <span v-html="shortSpace"></span>生態更好</p>
         </el-card>
       </div>
     </section>
@@ -48,7 +48,7 @@
     </section>
 
     <section class="flex flex-wrap items-center py-8 bg">
-      <div class="w-1/2 py-10 pl-6 text-2xl text-left text-black sm:w-2/5 sm:text-center sm:pl-0 sm:text-4xl">最新资讯</div>
+      <div class="w-1/2 py-10 pl-6 text-2xl text-left text-black sm:w-2/5 sm:text-center sm:pl-0 sm:text-4xl">最新資訊</div>
       <div class="flex-1 px-6 text-left sm:pr-10 sm:pl-0">
         <!-- <div class="text-xl leading-tight text-black sm:text-4xl">We bring tech, design, data and business chops together to deliver software solutions to tens of millions of users.</div> -->
         <!-- <el-button class="mt-6">查看更多</el-button> -->

@@ -4,10 +4,10 @@
       <el-image class="absolute z-0 w-screen h-full opacity-30" :src="banner" fit="cover"></el-image>
       <div class="z-10 px-10 text-2xl font-bold tracking-wide text-left text-white md:px-32 sm:text-6xl">
         <h2>
-          <span>全方位互联网</span>
+          <span>全方位互聯網</span>
           <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-green-400">解決方案</span>
         </h2>
-        <h2 class="pt-5">解锁商业价值，助力企业迈向成功</h2>
+        <h2 class="pt-5">解鎖商業價值，助力企業邁向成功</h2>
       </div>
     </section>
 
@@ -59,7 +59,7 @@
     </section>
 
     <section class="flex flex-wrap items-center py-8 bg">
-      <h2 class="w-1/2 py-10 pl-6 text-2xl text-left text-black sm:w-2/5 sm:text-center sm:pl-0 sm:text-4xl">最新资讯</h2>
+      <h2 class="w-1/2 py-10 pl-6 text-2xl text-left text-black sm:w-2/5 sm:text-center sm:pl-0 sm:text-4xl">最新資訊</h2>
       <div class="flex-1 px-6 text-left sm:pr-10 sm:pl-0">
         <!-- <div class="text-xl leading-tight text-black sm:text-4xl">We bring tech, design, data and business chops together to deliver software solutions to tens of millions of users.</div> -->
         <!-- <el-button class="mt-6">查看更多</el-button> -->
@@ -101,16 +101,16 @@ export default {
       ],
       serviceList: [
         {
-          type: '我们的服务',
-          dataList: ['APP及小程序开发', '3D应用定制', '互动营销网页制作']
+          type: '我們的服務',
+          dataList: ['APP及小程序開發', '3D應用定制', '互動營銷網頁製作']
         },
         {
-          type: '数据分析',
-          dataList: ['埋点检测', '洞察发现', '孪生预测']
+          type: '數據分析',
+          dataList: ['數據埋點', '洞察發現', '孿生預測']
         },
         {
-          type: '商业资讯',
-          dataList: ['行业解决方案', '市场机遇探索', '最佳实践']
+          type: '商業咨詢',
+          dataList: ['行業解決方案', '市場機遇探索', '最佳實踐']
         }
       ],
       caseList: [

@@ -3,23 +3,23 @@
     <section class="relative flex items-center justify-center w-screen banner">
       <el-image class="absolute z-0 w-screen h-full opacity-30" :src="banner" fit="cover"></el-image>
       <div class="z-10 px-8 text-xl tracking-wide text-center text-white md:px-32 sm:text-4xl">
-        <h3 class="w-1/2 py-2 mx-auto text-xl border border-gray-100 border-solid">小程序定制开发</h3>
+        <h3 class="w-2/3 py-2 mx-auto text-xl border border-gray-100 border-solid sm:w-1/2">小程序定制開發</h3>
         <div class="pt-6">
-          <div>低成本、跨平台、轻量级、开箱即用</div>
-          <div>服务热线：<span class="font-bold">150 0203 2816</span></div>
+          <div>低成本、跨平台、輕量級、開箱即用</div>
+          <div class="text-base sm:text-xl sm:pt-2">即刻咨詢：<a class="font-bold" href="mailto:kyle@linkendtech.com">kyle@linkendtech.com</a></div>
         </div>
       </div>
     </section>
 
     <section class="px-6 py-4 text-center sm:py-12 sm:px-24">
-      <h2 class="text-xl font-bold text-primary sm:text-4xl">小程序定制开发</h2>
-      <p class="w-4/5 pt-6 mx-auto text-left sm:text-xl"><span v-html="space"></span>小程序是一种不需要下载安装即可使用的应用，它实现了应用“触手可及”的梦想，用户扫一扫或者通过微信首页下拉即可打开应用。也体现了“用完即走”的理念。小程序能够实现消息通知、线下扫码、公众号关联等七大功能。同时，微信小程序更加是推广和营销的优质渠道。</p>
-      <p class="w-4/5 pt-1 mx-auto text-left sm:text-xl"><span v-html="space"></span>广州领燕科技深耕微信小程序研发多年，致力于为企业定制专属的小程序应用。我们团队拥有非常丰富的经验和专业知识，基于各个行业和业务场景提供不同的定制研发方案。我们理解客户的需求，将其落地为功能丰富、易于使用的小程序，并确保高质量交付和卓越的用户体验。</p>
+      <h2 class="text-xl font-bold text-primary sm:text-4xl">小程序定制開發</h2>
+      <p class="w-4/5 pt-6 mx-auto text-left sm:text-xl"><span v-html="space"></span>微信小程序基於微信APP，無需下載安裝即可使用，實現咗應用程式”觸手可及“的夢想，用戶只需要掃一掃二維碼或者通過微信首頁下拉即可打開應用。亦體現咗“用完即走”的理念。小程序能夠實現消息通知、線下掃碼、社交媒體關聯等七大功能。同時，微信小程序更加係推廣同營銷嘅優質平台。</p>
+      <p class="w-4/5 pt-1 mx-auto text-left sm:text-xl"><span v-html="space"></span>廣州領燕科技深耕微信小程序研發多年，致力於為企業定制專屬的小程序應用。我們團隊擁有非常豐富的經驗同專業知識，基於各個行業同業務場景提供不同的定制研發方案。我們理解客戶的需求，將其落地為功能豐富、易於使用的小程序，並確保高質量交付和卓越的用戶體驗。</p>
     </section>
 
     <section class="px-6 py-4 text-center bg sm:py-12 sm:px-24">
-      <div class="text-xl font-bold text-primary sm:text-4xl">小程序核心优势</div>
-      <p class="w-4/5 pt-2 mx-auto text-center sm:text-xl">丰富的使用场景，离用户更近一步</p>
+      <h2 class="text-xl font-bold text-primary sm:text-4xl">微信小程序核心優勢</h2>
+      <p class="w-4/5 pt-2 mx-auto text-center sm:text-xl">豐富的使用場景，離用戶更近一步</p>
       <div class="flex flex-wrap items-center justify-around pt-6 sm:pt-10">
         <el-card
           class="items-center w-40 px-2 pt-6 mb-6 flow flow-col sm:w-48 h-80"
@@ -97,38 +97,38 @@ export default {
       advantageList: [
         {
           icon: require('@/assets/icons/mp-advantage-1.png'),
-          title: '线下扫码',
-          desc: '扫码即可打开小程序，实现线上线下相互导流',
-          alt: '线下扫码'
+          title: '線下掃碼',
+          desc: '掃碼即可打開小程序，實現線上線下相互導流',
+          alt: '線下掃碼'
         },
         {
           icon: require('@/assets/icons/mp-advantage-2.png'),
           title: '微信搜索',
-          desc: '微信聊天主界面下拉即可搜索小程序，可见小程序地位之高',
+          desc: '微信聊天主界面下拉即可搜索小程序，可見小程序低位之高',
           alt: '微信搜索'
         },
         {
           icon: require('@/assets/icons/mp-advantage-3.png'),
-          title: '分享裂变',
-          desc: '用户可将小程序转发给好友、群聊和朋友圈',
-          alt: '分享裂变'
+          title: '分享裂變',
+          desc: '用戶可將小程序轉發給好友、群聊和朋友圈',
+          alt: '分享裂變'
         },
         {
           icon: require('@/assets/icons/mp-advantage-4.png'),
-          title: '公众号关联',
-          desc: '从公众号关联小程序',
-          alt: '公众号关联'
+          title: '公眾號關聯',
+          desc: '從公眾號關聯小程序',
+          alt: '公眾號關聯'
         },
         {
           icon: require('@/assets/icons/mp-advantage-5.png'),
-          title: '历史列表',
-          desc: '使用过的小程序保存在小程序列表，下次使用时可直接打开',
-          alt: '历史列表'
+          title: '歷史列表',
+          desc: '使用過的小程序保存在小程序列表，下次使用時可直接打開',
+          alt: '歷史列表'
         },
         {
           icon: require('@/assets/icons/mp-advantage-6.png'),
           title: '附近的小程序',
-          desc: '展示附近五公里内的门店',
+          desc: '展示附近附近五公里內的門店',
           alt: '附近的小程序'
         }
       ],
