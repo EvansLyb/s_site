@@ -1,10 +1,10 @@
 <template>
-  <div id="dev-flow" class="py-4 px-6 sm:py-12 sm:px-24">
-    <div class="text-primary text-xl sm:text-4xl font-bold">服务流程</div>
-    <p class="w-4/5 text-center sm:text-xl mx-auto pt-2">专业的服务造就一流的软件</p>
+  <div id="dev-flow" class="px-6 py-4 sm:py-12 sm:px-24">
+    <div class="text-xl font-bold text-primary sm:text-4xl">服務流程</div>
+    <p class="w-4/5 pt-2 mx-auto text-center sm:text-xl">專業的服務造就一流的軟件</p>
     <div class="flex flex-wrap items-center justify-around pt-6 sm:pt-10">
       <div class="flex flex-col items-center justify-center" v-for="(flow, index) in flowList" :key="index">
-        <el-image class="w-20 h-20 sm:w-24 sm:h-24 block" :src="flow.icon" fit="fill"></el-image>
+        <el-image class="block w-20 h-20 sm:w-24 sm:h-24" :src="flow.icon" fit="fill"></el-image>
         <div class="text-xl sm:text-2xl">{{flow.label}}</div>
       </div>
     </div>
@@ -19,7 +19,7 @@ export default {
       flowList: [
         {
           icon: require('@/assets/icons/flow-contact.svg'),
-          label: '1.初步沟通'
+          label: '1.初步溝通'
         },
         {
           icon: require('@/assets/icons/flow-requirements.svg'),
@@ -27,15 +27,15 @@ export default {
         },
         {
           icon: require('@/assets/icons/flow-ui-design.svg'),
-          label: '3.UI设计'
+          label: '3.UI設計'
         },
         {
           icon: require('@/assets/icons/flow-coding.svg'),
-          label: '4.迭代开发'
+          label: '4.迭代開發'
         },
         {
           icon: require('@/assets/icons/flow-debug.svg'),
-          label: '5.测试&优化'
+          label: '5.測試&優化'
         },
         {
           icon: require('@/assets/icons/flow-release.svg'),
@@ -43,7 +43,7 @@ export default {
         },
         {
           icon: require('@/assets/icons/flow-maintenance.svg'),
-          label: '7.后期维护'
+          label: '7.後期維護'
         }
       ]
     }

@@ -43,7 +43,7 @@
     </section> -->
 
     <section>
-      <h2 class="text-2xl text-center text-black sm:text-4xl">合作案例</h2>
+      <h2 class="text-2xl text-center text-black sm:text-4xl">合作客戶</h2>
       <el-divider class="w-1/2 mx-auto"></el-divider>
       <div class="flex flex-wrap justify-around pb-8">
         <div
