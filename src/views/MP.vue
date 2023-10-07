@@ -12,7 +12,7 @@
     </section>
 
     <section class="px-6 py-4 text-center sm:py-12 sm:px-24">
-      <h2 class="text-xl font-bold text-primary sm:text-4xl">小程序定制開發</h2>
+      <h1 class="text-xl font-bold text-primary sm:text-4xl">小程序定制開發</h1>
       <p class="w-4/5 pt-6 mx-auto text-left sm:text-xl"><span v-html="space"></span>微信小程序基於微信APP，無需下載安裝即可使用，實現咗應用程式”觸手可及“的夢想，用戶只需要掃一掃二維碼或者通過微信首頁下拉即可打開應用。亦體現咗“用完即走”的理念。小程序能夠實現消息通知、線下掃碼、社交媒體關聯等七大功能。同時，微信小程序更加係推廣同營銷嘅優質渠道。</p>
       <p class="w-4/5 pt-1 mx-auto text-left sm:text-xl"><span v-html="space"></span>廣州領燕科技深耕微信小程序研發多年，致力於為企業定制專屬的小程序應用。我們團隊擁有非常豐富的經驗同專業知識，基於各個行業同業務場景提供不同的定制研發方案。我們理解客戶的需求，將其落地為功能豐富、易於使用的小程序，並確保高質量交付和卓越的用戶體驗。</p>
     </section>
