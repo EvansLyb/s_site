@@ -34,6 +34,16 @@ const routes = [
     component: () => import('../views/MP.vue')
   },
   {
+    path: '/3d',
+    name: '3d',
+    component: () => import('../views/3d.vue')
+  },
+  {
+    path: '/marketing',
+    name: 'marketing',
+    component: () => import('../views/Marketing.vue')
+  },
+  {
     path: '/contact',
     name: 'Contact',
     component: () => import('../views/Contact.vue')
