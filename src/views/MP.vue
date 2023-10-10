@@ -89,7 +89,7 @@ import { postList } from '@/posts/postList'
 export default {
   name: 'MP',
   metaInfo: {
-    title: '小程序定制开发',
+    title: '小程序定制開發',
   },
   data() {
     return {

@@ -132,7 +132,7 @@ import { postList } from '@/posts/postList'
 export default {
   name: 'Home',
   metaInfo: {
-    title: '首页',
+    title: '首頁',
   },
   data() {
     return {

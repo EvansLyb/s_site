@@ -15,8 +15,8 @@ import Home from '@/views/Home.vue'
 export default {
   name: 'App',
   metaInfo: {
-    title: '首页',
-    titleTemplate: '%s | 领燕科技'
+    title: '首頁',
+    titleTemplate: '%s | 領燕科技'
   },
   components: {
     Nav,

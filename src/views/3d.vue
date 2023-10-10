@@ -108,7 +108,7 @@ import { postList } from '@/posts/postList'
 export default {
   name: '3d',
   metaInfo: {
-    title: '3D应用研发',
+    title: '3D應用研發',
   },
   data() {
     return {

@@ -134,7 +134,7 @@ import { Message } from 'element-ui';
 export default {
   name: "Contact",
   metaInfo: {
-    title: '联系我们',
+    title: '聯繫我們',
   },
   data() {
     const validateContact = (rule, value, callback) => {

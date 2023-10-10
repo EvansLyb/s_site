@@ -68,7 +68,7 @@ import DevFlow from '@/components/DevFlow.vue'
 export default {
   name: 'About',
   metaInfo: {
-    title: '关于我们',
+    title: '關於我們',
   },
   data() {
     return {
