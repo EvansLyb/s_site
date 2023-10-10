@@ -68,9 +68,9 @@
           <el-image class="block w-1/2 h-1/2" :src="logo" fit="fill"></el-image>
         </div>
         <div class="w-full text-left lg:w-3/4 lg:pl-36">
-          <h1 class="text-2xl font-bold text-black sm:text-4xl">广州领燕科技有限公司</h1>
-          <div class="pt-3 leading-relaxed tracking-wide sm:pt-6">广州领燕科技有限公司是一家热衷于创新技术服务的企业，我们为品牌和传统企业提供信息化建设和数字化转型的方案咨询，并提供一站式产品研发服务。我们的研发业务包括 APP、小程序、3D应用、H5互动营销页面定制、企业系统及物联网产品等。自2015年以来，我们已服务 Nike、Adidas、Burberry、Starbucks、Converse、Lululemon、GOAT、Tiffany、山姆会员商店、宝马等多个世界知名品牌，并成功帮助客户在中国市场赢得巨大的增长。我们追求极致卓越，力求为客户提供最优质的服务，打造最优质的产品，助力客户落实信息化建设和数字化转型，为其提升自身的盈利能力，实现双赢。</div>
-          <div class="pt-3 font-bold text-gray-800">地址：广州市白云区天健创意园2栋302A</div>
+          <h1 class="text-2xl font-bold text-black sm:text-4xl">廣州領燕科技有限公司</h1>
+          <div class="pt-3 leading-relaxed tracking-wide sm:pt-6">廣州領燕科技有限公司是一家熱衷於創新技術服務的企業，我們為品牌和傳統企業提供信息化建置和數字化轉型的方案諮詢，並提供一站式產品研發服務。我們的研發業務包括 APP、小程式、3D應用、H5互動營銷頁面定制、企業系統及物聯網產品等。自2015年以來，我們已服務 Nike、Adidas、Burberry、Starbucks、Converse、Lululemon、GOAT、Tiffany、山姆會員商店、寶馬等多個世界知名品牌，並成功幫助客戶在中國市場贏得巨大的增長。我們追求極致卓越，力求為客戶提供最優質的服務，打造最優質的產品，助力客戶落實資訊化建設和數字化轉型，為其提升自身的獲利能力，實現雙贏。</div>
+          <div class="pt-3 font-bold text-gray-800">地址：廣州市白雲區天健創意園2棟302A</div>
         </div>
       </div>
 
@@ -81,12 +81,12 @@
           <el-image class="block w-1/2 logo-wcl h-1/2" :src="logoWCL" fit="fill"></el-image>
         </div>
         <div class="w-full text-left lg:w-3/4 lg:pl-36">
-          <div class="text-2xl font-bold text-black sm:text-4xl">Wiredcraft（合作伙伴）</div>
-          <div class="pt-1 leading-relaxed tracking-wide">- Wiredcraft位于上海市中心，是一家数字应用程序研发商，为企业品牌实现全渠道、跨界或数字化转型方面的策略，发展并建立自己的产品文化。</div>
+          <div class="text-2xl font-bold text-black sm:text-4xl">Wiredcraft（合作夥伴）</div>
+          <div class="pt-1 leading-relaxed tracking-wide">- Wiredcraft位於上海市中心，是一家數字應用程式研發商，為企業品牌實現全通路、跨界或數字化轉型方面的策略，發展並建立自己的產品文化。</div>
           <div class="pt-3 leading-relaxed tracking-wide sm:pt-6">
-            <a class="link-primary" href="https://wiredcraft.com/" target="_blank">官方网站</a>
+            <a class="link-primary" href="https://wiredcraft.com/" target="_blank">官方網站</a>
           </div>
-          <div class="pt-3 font-bold text-gray-800">地址：上海市铜仁路258号，4F</div>
+          <div class="pt-3 font-bold text-gray-800">地址：上海市銅仁路258號，4F</div>
         </div>
       </div>
     </section>
@@ -149,11 +149,11 @@ export default {
       serviceList: [
         {
           type: '我們的服務',
-          dataList: ['APP及小程序開發', '3D應用定制', '互動營銷網頁製作']
+          dataList: ['APP研發', '3D應用定制', '互動營銷頁面製作']
         },
         {
           type: '數據分析',
-          dataList: ['數據埋點', '洞察發現', '孿生預測']
+          dataList: ['數據埋點', '商業智能', '孿生預測']
         },
         {
           type: '商業咨詢',
@@ -209,23 +209,23 @@ export default {
       contactList: [
         {
           icon: require('@/assets/icons/phone.png'),
-          label: '联系电话',
-          content: '150 0203 2816'
+          label: '聯繫電話',
+          content: '+86 150 0203 2816'
         },
         {
           icon: require('@/assets/icons/wechat-dotted.png'),
-          label: '微信号',
+          label: '微信號',
           content: '150 0203 2816'
         },
         {
           icon: require('@/assets/icons/mail.png'),
-          label: '邮箱',
+          label: '郵箱',
           content: 'kyle@linkendtech.com'
         },
         {
           icon: require('@/assets/icons/map.png'),
-          label: '联系地址',
-          content: '广州市白云区天健创意园2栋302A'
+          label: '聯繫地址',
+          content: '廣州市白雲區天健創意園2棟302A'
         }
       ],
       postList,

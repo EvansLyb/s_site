@@ -3,33 +3,33 @@
     <section class="relative flex items-center justify-center w-screen banner">
       <el-image class="absolute z-0 w-screen h-full opacity-50 el-img-object-top" :src="banner" fit="cover"></el-image>
       <div class="z-10 px-8 text-xl tracking-wide text-center text-white md:px-32 sm:text-4xl">
-        <h3 class="w-1/2 py-2 mx-auto text-xl border border-gray-100 border-solid">3D应用研发</h3>
+        <h3 class="w-1/2 py-2 mx-auto text-xl border border-gray-100 border-solid">3D應用研發</h3>
         <div class="pt-6">
-          <div>为未来赋能</div>
-          <div>服务热线：<span class="font-bold">150 0203 2816</span></div>
+          <div>為未來賦能</div>
+          <div class="text-base sm:text-xl sm:pt-2">即刻咨詢：<a class="font-bold" href="mailto:kyle@linkendtech.com">kyle@linkendtech.com</a></div>
         </div>
       </div>
     </section>
 
     <section class="px-6 py-4 text-center sm:py-12 sm:px-24">
-      <h1 class="text-xl font-bold text-primary sm:text-4xl">3D应用研发</h1>
-      <p class="w-4/5 pt-6 mx-auto text-left sm:text-xl"><span v-html="space"></span>3D应用研发涉及到多个技术领域，如计算机图形学、计算机视觉、虚拟现实等。领燕科技掌握各种建模工具和渲染引擎，帮助客户创建出逼真的三维场景、角色、特效等。</p>
-      <p class="w-4/5 pt-1 mx-auto text-left sm:text-xl"><span v-html="space"></span>同时，3D技术在各个行业中都有着很广泛的应用。比如，在直播行业中，结合AI诞生出了数字人，为主播们带来更丰富的内容与玩法；在建筑和工程领域，帮助设计师和工程师更好地可视化和模拟建筑项目；在医学领域，可以用来进行解剖学教学、手术模拟等。</p>
-      <p class="w-4/5 pt-1 mx-auto text-left sm:text-xl"><span v-html="space"></span>随着虚拟现实和人工智能的发展，领燕科技通过丰富的行业知识和多年的技术沉淀与3D相结合，创造出更加智能和具现的应用，为以前我们只能在电影中看到的场景带来落地的可能性。</p>
+      <h1 class="text-xl font-bold text-primary sm:text-4xl">3D應用研發</h1>
+      <p class="w-4/5 pt-6 mx-auto text-left sm:text-xl"><span v-html="space"></span>3D應用研發涉及多個技術領域，如計算機圖形學、計算機視覺、虛擬實境等。領燕科技掌握各種建模工具和渲染引擎，幫助客戶創造出逼真的立體場景、角色、特效等。</p>
+      <p class="w-4/5 pt-1 mx-auto text-left sm:text-xl"><span v-html="space"></span>同時，3D技術在各行各業中都有著廣泛的應用。例如，在直播產業中，結合AI誕生了數字人，為主播帶來更豐富的內容與玩法；在建築和工程領域，幫助設計師和工程師更好地視覺化和模擬建築項目；在醫學領域 ，可以用來進行解剖學教學、手術模擬等。</p>
+      <p class="w-4/5 pt-1 mx-auto text-left sm:text-xl"><span v-html="space"></span>隨著虛擬現實和人工智能的發展，領燕科技透過豐富的行業知識和多年的技術沉澱與3D相結合，創造出更智能和具現的應用，為以前我們只能在電影中看到的場景帶來了落地的可能性。</p>
     </section>
 
     <section class="px-6 py-4 text-center bg sm:py-12 sm:px-24">
-      <h2 class="text-xl font-bold text-primary sm:text-4xl">研发流程</h2>
+      <h2 class="text-xl font-bold text-primary sm:text-4xl">研發流程</h2>
       <div class="flex flex-wrap items-center pt-6 sm:text-center">
         <el-image class="w-full rounded-md h-fit sm:w-1/2" :src="serviceProcessImg" />
         <div class="flex-1 p-3 text-left sm:text-xl sm:pl-16">
-          <p class="mb-5 font-bold">广州领燕科技致力于为客户提供高质量的3D应用研发服务</p>
-          <li class="mb-1">我们通过深入沟通了解客户的需求，以确保全面理解最终的目标。</li>
-          <li class="mb-1">我们针对特定的场景提供合适的采样方案，以低成本还原模型的轮廓和材质。</li>
-          <li class="mb-1">我们使用先进技术和工具保证模型的准确性和细节。</li>
-          <li class="mb-1">我们为模型添加逼真的光照和材质效果进行渲染，增强应用视觉吸引力。</li>
-          <li class="mb-1">我们注重视觉呈现、操作方式、互动反馈等多方面因素，实现流畅和优秀的用户体验。</li>
-          <li class="mb-1">我们确保应用无缝系统接入，兼容性稳定性完备。</li>
+          <p class="mb-5 font-bold">廣州領燕科技致力於為客戶提供高質量的3D應用研發服務</p>
+          <li class="mb-1">我們透過深入溝通了解客戶的需求，以確保全面理解最終的目標。</li>
+          <li class="mb-1">我們針對特定的場景提供合適的採樣方案，以低成本還原模型的輪廓和材質。</li>
+          <li class="mb-1">我們使用先進技術和工具保證模型的準確性和細節。</li>
+          <li class="mb-1">我們為模型添加逼真的光線和材質效果進行渲染，增強應用視覺吸引力。</li>
+          <li class="mb-1">我們著重視覺呈現、操作方式、互動反饋等多方面因素，實現流暢和優秀的使用體驗。</li>
+          <li class="mb-1">我們確保應用無縫接入系統，兼容性穩定性完整。</li>
         </div>
       </div>
     </section>
@@ -38,9 +38,9 @@
       <h2 class="text-xl font-bold text-primary sm:text-4xl">数字人</h2>
       <div class="flex flex-wrap items-center pt-6 sm:text-center">
         <div class="flex-1 p-3 text-left sm:text-xl sm:pr-16">
-          <p class="mb-1">数字人（Digital Human）是指通过计算机生成的虚拟人物，他们拥有逼真的外貌、表情、动作和语音，几乎可以与真实人类无异。数字人技术是3D、计算机图形学、人工智能和机器学习等技术的结合，通过对人类外貌、动作和语音的模拟，创造出外观和行为上都与真实人类相似的虚拟角色。</p>
-          <p class="mb-1">数字人技术的发展使得虚拟角色在直播、游戏、广告和虚拟现实应用等领域中得以广泛应用。数字人在直播中作为虚拟主播，具备低成本、24小时不间断的特点；在电影和动画中扮演角色，代替真实演员进行表演；在广告中作为代言人，吸引观众的注意力。</p>
-          <p>目前腾讯、阿里、百度、华为等多个云服务商已经相继推出数字人底层服务，领燕科技与多家云厂商合作，为客户提供成熟的数字人应用技术方案与接入研发服务。</p>
+          <p class="mb-1">数字人（Digital Human）是指透過程序生成的虛擬人物，他們擁有逼真的外貌、表情、動作和語音，幾乎可以與真實人類無異。數字人技術是3D、计算机圖形学、人工智能和機器學習等技術的結合，透過对人類外觀、動作和語音的模擬，創造出外觀和行為上都與真實人類相似的虛擬角色。</p>
+          <p class="mb-1">數字人技術的發展使得虛擬角色在直播、遊戲、廣告和虛擬现实應用等領域中得以廣泛應用。數字人在直播中作為虛擬主播，具備低成本、24小時不間斷的特點；在電影和動畫中扮演角色，代替真實演員進行表演；在廣告中作為代言人，吸引觀眾的注意。</p>
+          <p>目前騰訊、阿里、百度、華為等多家雲端服務商已相繼推出數位人底層服務，領燕科技與多家雲端廠商合作，為客戶提供成熟的數字人應用技術方案與接入研發服務。</p>
         </div>
         <el-image class="w-full rounded-md digital-human-img h-fit sm:w-1/2" :src="digitalHumanImg" fit="cover" />
       </div>
@@ -51,18 +51,18 @@
       <div class="flex flex-wrap items-center pt-6 sm:text-center">
         <el-image class="w-full rounded-md h-fit sm:w-1/2" :src="arMarketing" />
         <div class="flex-1 p-3 text-left sm:text-xl sm:pl-16">
-          <p class="mb-1">领燕科技帮助Burberry研发的AR营销应用将虛拟商品投入到真实环境中。通过该AR应用，消费者可以直接在实际环境中查看虚拟商品的样式、颜色、尺寸等，更可以通过手势互动近距离观察商品的精美细节，更准确地解商品，深度还原了线下的购物体验。此外，AR购物还可以为消费者提供更多的商品信息和推荐，比如价格、评论、相关商品等，为商家提供了更多的推广和销售机会，可以吸引更多的消费者并提高购买率。</p>
-          <p class="mb-1">除了AR应用，领燕科技针对VR和MR也进行了充分的行业调研与研发试验，力求为客户提供专业的咨询方案。AR/VR/MR的应用前景非常广阔，随着相关技术的不断发展和普及，基于视觉、3D可视化与传感技术，虚拟世界与现实世界的相互融合将成为未来的重要趋势之一。</p>
+          <p class="mb-1">領燕科技幫助Burberry研發的AR营销應用將虛擬商品投入到真實環境中。透過此AR應用，消費者可以直接在真实環境中查看虛擬商品的樣式、顏色、尺寸等，更可以透過手勢互動近距離觀察商品的精美細節，更準確地解商品，深度還原了線下的購物體驗。此外，AR購物還可以為消費者提供更多的商品資訊和推薦，例如價格、評論、相關商品等，為商家提供了更多的推廣和銷售機會，可以吸引更多的消費者並提高購買率 。</p>
+          <p class="mb-1">除了AR應用，領燕科技針對VR和MR也進行了充分的行业研究與研發試驗，力求為客戶提供專業的諮詢方案。AR/VR/MR的應用前景非常廣闊，隨著相關技術的不斷發展與普及，基於視覺、3D視覺化與感測技術，虛擬世界與現實世界的相互融合將成為未來的重要趨勢之一。</p>
         </div>
       </div>
     </section>
 
     <section class="px-6 py-4 text-center bg sm:py-12 sm:px-24">
-      <h2 class="text-xl font-bold text-primary sm:text-4xl">智慧行业/数字孪生</h2>
+      <h2 class="text-xl font-bold text-primary sm:text-4xl">智慧行業/數字孿生</h2>
       <div class="flex flex-wrap items-center pt-6 sm:text-center">
         <div class="flex-1 p-3 text-left sm:text-xl sm:pr-16">
-          <p class="mb-1">数字孪生是基于WebGL+3D可视化技术搭建的3D模拟工厂、楼宇、园区等真实场景，把错综复杂的图纸、数据以三维虚拟数字整体复刻的形式展现给管理员，对于所要展示的数据可视化内容还原出真实场景，并实时接入数据，从更高维度来运筹帷幄，管理决策、交互互动展示。</p>
-          <p>相比与传统的平面展示，数字孪生具备：（1）实时性：数字孪生能够实时地反映现实世界的状态和变化。通过与实际物体或系统的连接，可以实时更新和呈现数据，实时反馈变化。（2）交互性：数字孪生允许用户与虚拟模型进行交互，通过手势、触控等方式来探索和操作模型。用户可以对模型进行灵活的操作，以获取更详细的信息。（3）多维度展示：数字孪生可以同时展示多个维度的数据，如空间维度、时间维度、属性维度等。通过将不同维度的数据进行可视化，可以更全面地了解和分析模型。（4）可视化分析：领燕科技为数字孪生提供了丰富的分析工具和功能。使管理员可以通过可视化手段来发现模式、趋势和异常，从而做出更准确的决策。</p>
+          <p class="mb-1">數字孿生是基於WebGL+3D視覺化技術建構的3D模擬工廠、樓宇、園區等真實場景，把錯綜複雜的圖紙、資料以三維虛擬數字整體復刻的形式展現給管理員，對於所要展示的數據視覺化內容還原出真實場景，並即時接入數據，從更高維度來運籌帷幄，管理決策、交互互動展示。</p>
+          <p>相較於與傳統的平面展示，數字孿生具備：（1）實時性：數字孿生能夠實時地反映現實世界的狀態與變化。透過與實際物體或系統的連接，可以實時更新和呈現數據，並即時反饋變化。（2）交互性：數字孿生允許使用者與虛擬模型進行交互，透過手勢、觸控等方式來探索和操作模型。使用者可以對模型進行靈活的操作，以獲取更詳細的信息。（3）多維度展示：數字孿生可以同時展示多個維度的數據，如空間維度、時間維度、屬性維度等。透過將不同維度的數據進行視覺化，可以更全面地了解和分析模型。（4）可視化分析：領燕科技為數字孿生提供了豐富的分析工具和功能。使管理員可以透過可視化手段來發現模式、趨勢和異常，從而做出更準確的決策。</p>
         </div>
         <el-image class="w-full rounded-md h-fit sm:w-1/2" :src="screenImg" fit="cover" />
       </div>
@@ -73,15 +73,15 @@
       <div class="flex flex-wrap items-center pt-6 sm:text-center">
         <el-image class="w-full rounded-md h-fit sm:w-1/2" :src="metaverseImg" />
         <div class="flex-1 p-3 text-left sm:text-xl sm:pl-16">
-          <p class="mb-1">元宇宙（Metaverse）是一个虚拟的、与现实世界相互连接的数字世界。它是一种由多个虚拟现实、增强现实和混合现实空间组成的网络，用户可以通过数字身份在其中交互、探索和创造。</p>
-          <p class="mb-1">在元宇宙中，用户可以自由地探索各种虚拟环境，与其他用户交流、合作或竞争，还可以参与各种虚拟活动，如购物、娱乐、教育、工作等。元宇宙为用户提供独一无二的数字化身，让他们可以在虚拟世界中展示自己的兴趣、才能和个性。同时，元宇宙也为企业和创作者提供了全新的商机和创意发挥空间，比如在其中创造和销售各种虚拟产品和服务。</p>
-          <p>目前，一些科技巨头和创业公司已经开始投资和开发元宇宙技术，以实现这一概念的商业化。元宇宙被认为是下一代互联网的演进方向，有望成为一个全新的数字化社交和经济系统。</p>
+          <p class="mb-1">元宇宙（Metaverse）是一個虛擬的、與現實世界相互連接的數字世界。它是一種由多個虛擬現實、增強現實和混合現實空間組成的網絡，用戶可以透過數字身分在其中進行互動、探索和創造。</p>
+          <p class="mb-1">在元宇宙中，用戶可以自由地探索各種虛擬環境，與其他用戶交流、合作或競爭，還可以參與各種虛擬活動，如購物、娛樂、教育、工作等。元宇宙為使用者提供獨一無二的數字化身，讓他們可以在虛擬世界中展現自己的興趣、才能和個性。同時，元宇宙也為企業和創作者提供了全新的商機和創意發揮空間，例如在其中創造和銷售各種虛擬產品和服務。</p>
+          <p>目前，有科技巨頭和創業公司已經開始投資和開發元宇宙技術，以實現這一概念的商業化。元宇宙被認為是下一代互聯網的演進方向，有望成為一個全新的數字化社交和經濟系統。</p>
         </div>
       </div>
     </section>
 
     <section class="flex flex-wrap items-center py-8 bg">
-      <div class="w-1/2 py-10 pl-6 text-2xl text-left text-black sm:w-2/5 sm:text-center sm:pl-0 sm:text-4xl">开发资讯</div>
+      <div class="w-1/2 py-10 pl-6 text-2xl text-left text-black sm:w-2/5 sm:text-center sm:pl-0 sm:text-4xl">最新資訊</div>
       <div class="flex-1 px-6 text-left sm:pr-10 sm:pl-0">
         <!-- <div class="text-xl leading-tight text-black sm:text-4xl">We bring tech, design, data and business chops together to deliver software solutions to tens of millions of users.</div> -->
         <!-- <el-button class="mt-6">查看更多</el-button> -->
@@ -112,8 +112,8 @@ export default {
       banner: require('@/assets/3d-banner-bg.jpg'),
       space: '&emsp;&emsp;',
       logoFinal: require('@/assets/logo_final.png'),
-      serviceProcessImg: require('@/assets/3d-service-process.png'),
-      digitalHumanImg: require('@/assets/3d-digital-human.png'),
+      serviceProcessImg: require('@/assets/3d-service-process-hk.png'),
+      digitalHumanImg: require('@/assets/3d-digital-human-hk.png'),
       arMarketing: require('@/assets/3d-ar-marketing.png'),
       screenImg: require('@/assets/3d-screen.png'),
       metaverseImg: require('@/assets/3d-metaverse.webp'),

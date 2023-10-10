@@ -49,7 +49,7 @@ export default {
           // },
           {
             type: "link",
-            text: '首页',
+            text: '首頁',
             path: '/'
           },
           {
@@ -57,7 +57,7 @@ export default {
           },
           {
             type: "link",
-            text: 'APP开发',
+            text: 'APP研發',
             path: '/app'
           },
           {
@@ -73,7 +73,7 @@ export default {
           // },
           {
             type: "link",
-            text: '3D应用研发',
+            text: '3D應用研發',
             path: '/3d'
           },
           {
@@ -81,7 +81,7 @@ export default {
           },
           {
             type: "link",
-            text: 'H5互动营销',
+            text: 'H5互動營銷',
             path: '/marketing'
           },
           {
@@ -97,7 +97,7 @@ export default {
           // },
           {
             type: "button",
-            text: '联系我们',
+            text: '聯繫我們',
             path: '/contact'
           }
         ]
