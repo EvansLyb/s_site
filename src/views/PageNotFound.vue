@@ -1,9 +1,9 @@
 <template>
   <div class="_404" id="_404">
-    <h2 class="m-0">抱歉，页面未找到，<span>{{countDown}}</span>s后自动跳转到
-        <a href="javascript:;" @click="goHome">首页</a>
+    <h2 class="m-0">Sorry，頁面丟失，<span>{{countDown}}</span>s後自動跳轉到
+        <a href="javascript:;" @click="goHome">首頁</a>
     </h2>
-    <img :src="bg" alt="页面未找到">
+    <img :src="bg" alt="頁面丟失">
   </div>
 </template>
 
