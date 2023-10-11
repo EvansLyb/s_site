@@ -164,7 +164,7 @@ export default {
       serviceList: [
         {
           type: '我們的服務',
-          dataList: ['APP研發', '3D應用定制', '互動營銷頁面製作']
+          dataList: ['APP研發', '3D應用定制', '互動營銷']
         },
         {
           type: '數據分析',
