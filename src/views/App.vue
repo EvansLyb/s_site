@@ -84,6 +84,18 @@ export default {
   name: 'App',
   metaInfo: {
     title: 'APP定制開發',
+    meta: [
+      {
+        property: 'og:title',
+        vmid: 'og:title',
+        content: 'APP定制開發',
+      },
+      {
+        vmid: 'description',
+        name: 'description',
+        content: '如今，手機作為移動終端已經成為人們生活中不可或替的一環。係現階段企業要尋求發展，不想淪為時代的炮灰，就不能故步自封，APP開發上線迫在眉睫。多個案例表明，商用APP會為企業帶來更多效益。將傳統行業結合移動互聯網融，企業和用戶之間將可以非常方便地建立一個良性的閉環。',
+      }
+    ]
   },
   data() {
     return {

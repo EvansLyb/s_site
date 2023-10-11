@@ -135,6 +135,18 @@ export default {
   name: "Contact",
   metaInfo: {
     title: '聯繫我們',
+    meta: [
+      {
+        property: 'og:title',
+        vmid: 'og:title',
+        content: '聯繫我們',
+      },
+      {
+        vmid: 'description',
+        name: 'description',
+        content: '廣州領燕科技有限公司是一家熱衷於創新技術服務的企業，我們為品牌和傳統企業提供信息化建置和數字化轉型的方案諮詢，並提供一站式產品研發服務。我們的研發業務包括 APP、小程式、3D應用、H5互動營銷頁面定制、企業系統及物聯網產品等。自2015年以來，我們已服務 Nike、Adidas、Burberry、Starbucks、Converse、Lululemon、GOAT、Tiffany、山姆會員商店、寶馬等多個世界知名品牌，並成功幫助客戶在中國市場贏得巨大的增長。我們追求極致卓越，力求為客戶提供最優質的服務，打造最優質的產品，助力客戶落實資訊化建設和數字化轉型，為其提升自身的獲利能力，實現雙贏。',
+      }
+    ]
   },
   data() {
     const validateContact = (rule, value, callback) => {

@@ -97,6 +97,18 @@ export default {
   name: 'Marketing',
   metaInfo: {
     title: 'H5互動營銷',
+    meta: [
+      {
+        property: 'og:title',
+        vmid: 'og:title',
+        content: 'H5互動營銷',
+      },
+      {
+        vmid: 'description',
+        name: 'description',
+        content: '品牌離不開營銷，領燕科技結合品牌元素，為各類品牌提供營銷活動頁面的設計和研發服務。H5互動營銷比起傳統的廣告投放具有自發裂變的優勢，用戶可以通過打卡或者將互動結果分享到社群媒體上，從而吸引更多的用戶參與到活動中。H5互動營銷可以收集用戶的行為數據，透過分析這些數據可以了解用戶的興趣和喜好，從而精準地進行銷售和推廣。這種數據驅動的營銷方式可以大幅提高品牌的轉換率和ROI。',
+      }
+    ]
   },
   data() {
     return {
