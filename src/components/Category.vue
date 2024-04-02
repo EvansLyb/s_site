@@ -20,7 +20,7 @@ export default {
         },
         {
           icon: 'map-location',
-          text: '广州市白云区天健创意园2栋302A'
+          text: '廣州市天河區林和中路188號附樓三樓A之E45'
         }
       ]
     }
